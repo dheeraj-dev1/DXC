@@ -1,0 +1,18 @@
+CREATE TABLE Employee
+(
+Employeeid number(3)
+Employeename varchar2(20)
+EmployeeAddress varchar2(20)
+DOB Date
+DOJ Date
+salary Number(6)	
+)
+INSERT INTO Employee values(10,'manoj','chennai','09/10/1995', '09/02/2016', 20000)
+
+INSERT into employee values (20, 'deekshith', 'chennai', '07/11/1996', '09/02/2016', 50000); 
+
+INSERT into employee values (30, 'dheeraj', 'Nellore', '01/19/1990', '09/02/2017', 60000); 
+
+INSERT into employee values (40, 'bharath', 'mumbai', '08/11/1980', '09/02/2018', 70000); 
+
+INSERT into employee values (50, 'hari', 'hyderabad', '01/26/2000', '06/03/2019', 10000);
